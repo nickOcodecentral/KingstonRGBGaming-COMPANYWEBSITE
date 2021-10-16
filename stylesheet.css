@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color:#4740ca;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(109, 6, 109);
+
+}
+
+li:hover {
+    background-color: #b957ce;  
+}
+
+.navlinks{
+    background-color: rgb#b957ce;
+    color: rgb(78, 67, 95);
+    text-align: center;
+    font-size: 1.2rem;
+}  
+
+
+.imagebanner {
+    background-image: url("images/BannerCool.jpg");
+    padding: 500px 0;
+    background-size: cover;
+}
+.introduction{
+    text-align: center;
+    color: rgb(53, 21, 33);
+    font-size:  1.5rem;
+}
+
+img {
+    width: 100%;
+    height:150vh;
+}
+
+.ourSetups {
+    
+    display:inline-block;
+}
+
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: center;
+    }
+
+    li {
+        display: grid;
+        border-bottom: 0px;
+    
+    }
+
+    .game {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
